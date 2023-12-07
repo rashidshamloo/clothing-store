@@ -46,7 +46,8 @@ export const metadata = {
       twitter: {
         card: 'summary_large_image',
         creator: twitterCreator,
-        site: twitterSite
+        site: twitterSite,
+        images: '/images/screenshots/home.webp',
       }
     }),
   icons: { icon: '/favicon.png' }

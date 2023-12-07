@@ -26,9 +26,17 @@ const AboutUs = dynamic(() => import('@/components/sections/AboutUs'), {
 export const runtime = 'edge';
 
 export const metadata = {
-  description: 'High-performance ecommerce store built with Next.js, Vercel, and Shopify.',
+  description: 'Clothing store e-commerce website by Rashid Shamloo',
   openGraph: {
-    type: 'website'
+    type: 'website',
+    images: {
+      url: '/images/screenshots/home.webp',
+      alt: 'Rumusha by Rashid Shamloo',
+      width: 1200,
+      height: 660,
+      type: 'image/webp',
+      secureUrl: '/images/screenshots/home.webp'
+    }
   }
 };
 
