@@ -21,7 +21,7 @@ import 'swiper/css/navigation';
 // types
 import { Product } from '@/lib/shopify/types';
 
-const Slider = ({ product }: { product: Product }) => {
+const ProductSlider = ({ product }: { product: Product }) => {
   // swiper
   const [isStart, setIsStart] = useState(false);
   const [isEnd, setIsEnd] = useState(false);
@@ -62,7 +62,7 @@ const Slider = ({ product }: { product: Product }) => {
                 alt={product.title}
                 fill
                 className="object-cover"
-                sizes="(min-width: 768px) 40vw, 80vw"
+                sizes="(min-width: 768px) 25vw, 80vw"
                 priority={i === 0}
               />
             </SwiperSlide>
@@ -113,7 +113,7 @@ const Slider = ({ product }: { product: Product }) => {
               alt={product.title}
               fill
               className="object-cover"
-              sizes="100px"
+              sizes="(min-width: 768px) 100px, 25vw"
             />
           </SwiperSlide>
         ))}
@@ -122,4 +122,4 @@ const Slider = ({ product }: { product: Product }) => {
   );
 };
 
-export default Slider;
+export default ProductSlider;
