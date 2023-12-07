@@ -10,7 +10,7 @@ const AboutUs = () => {
           We strive to create pieces that are both unique and timeless and take pride in offering
           high-quality clothing that is both comfortable and stylish.
         </p>
-        <a href="/about-us" className="btn-dark mt-2 text-[clamp(18px,10px_+_2vw,22px)]">
+        <a href="/about-us" className="btn-very-dark mt-2 text-[clamp(18px,10px_+_2vw,22px)]">
           About Us
         </a>
       </div>

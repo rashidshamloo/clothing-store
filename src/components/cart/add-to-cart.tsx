@@ -15,9 +15,9 @@ function SubmitButton({
   selectedVariantId: string | undefined;
 }) {
   const { pending } = useFormStatus();
-  const buttonClasses = 'btn-cart text-[22px] font-quicksand';
+  const buttonClasses = 'text-[22px] font-quicksand';
   // 'relative flex w-full items-center justify-center rounded-full bg-blue-600 p-4 tracking-wide text-white';
-  const disabledClasses = 'cursor-not-allowed opacity-60 hover:opacity-60';
+  const disabledClasses = 'btn-cart-disabled cursor-not-allowed opacity-60 hover:opacity-60';
 
   if (!availableForSale) {
     return (
@@ -29,15 +29,8 @@ function SubmitButton({
 
   if (!selectedVariantId) {
     return (
-      <button
-        aria-label="Please select an option"
-        aria-disabled
-        className={clsx(buttonClasses, disabledClasses)}
-      >
-        {/* <div className="absolute left-0 ml-4">
-          <PlusIcon className="h-5" />
-        </div> */}
-        Add To Cart
+      <button aria-disabled className={clsx(buttonClasses, disabledClasses)}>
+        Please select an option
       </button>
     );
   }
@@ -49,7 +42,7 @@ function SubmitButton({
       }}
       aria-label="Add to cart"
       aria-disabled={pending}
-      className={clsx(buttonClasses, {
+      className={clsx(buttonClasses, 'btn-cart', {
         'hover:opacity-90': true,
         disabledClasses: pending
       })}

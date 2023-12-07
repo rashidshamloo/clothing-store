@@ -65,7 +65,7 @@ const ProductDescription = ({ product }: { product: Product }) => {
         <p className="mb-2 text-[26px]">Description</p>
         <div
           dangerouslySetInnerHTML={{ __html: product.descriptionHtml as string }}
-          className="font-quicksand text-[18px] text-darkPurple/80"
+          className="font-quicksand text-[18px] text-darkPurple"
         />
       </div>
       <div className="my-2 h-[1px] w-full bg-purple"></div>
