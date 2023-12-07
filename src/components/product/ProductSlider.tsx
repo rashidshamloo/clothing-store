@@ -63,6 +63,7 @@ const Slider = ({ product }: { product: Product }) => {
                 fill
                 className="object-cover"
                 sizes="(min-width: 768px) 40vw, 80vw"
+                priority={i === 0}
               />
             </SwiperSlide>
           ))}
