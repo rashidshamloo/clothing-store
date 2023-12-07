@@ -44,11 +44,10 @@ const Menu = ({ menu }: { menu: Menu[] }) => {
                     '[&_.fade-up]:animate-fadeUp',
                     '[&_.fade-up-delay]:animate-fadeUpDelay'
                   );
-                  setTimeout(() =>
-                    containerElement.classList.add(
-                      '[&_.fade-up]:animate-fadeUp',
-                      '[&_.fade-up-delay]:animate-fadeUpDelay'
-                    )
+                  void containerElement.offsetHeight;
+                  containerElement.classList.add(
+                    '[&_.fade-up]:animate-fadeUp',
+                    '[&_.fade-up-delay]:animate-fadeUpDelay'
                   );
                 }}
               >
