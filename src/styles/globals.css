@@ -1,0 +1,24 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lora&family=Quicksand:wght@400;500;600;700&display=swap'); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply relative rounded-[8px] border border-transparent bg-lightPurple px-[32px] py-[16px] font-bold text-darkPurple shadow-md transition-all duration-300 after:absolute after:right-[20px] after:top-[calc(50%_+_2px)] after:font-[swiper-icons] after:text-[20px] after:text-white after:opacity-0 after:transition-all after:duration-300 after:content-['next'] after:-translate-y-1/2 hover:border-lightPurple hover:bg-purple hover:pl-[16px] hover:pr-[48px] hover:text-white hover:after:opacity-100;
+}
+
+.btn-dark {
+  @apply relative rounded-[8px] border border-transparent bg-purple px-[32px] py-[16px] font-bold text-white shadow-md transition-all duration-300 after:absolute after:right-[20px] after:top-1/2 after:font-[swiper-icons] after:text-[18px] after:text-white after:opacity-0 after:transition-all after:duration-300 after:content-['next'] after:-translate-y-1/2 hover:border-white hover:bg-darkPurple hover:pl-[16px] hover:pr-[48px] hover:text-white hover:after:opacity-100;
+}
+
+.btn-cart {
+  @apply relative w-full rounded-[8px] border border-transparent bg-purple px-[32px] py-[16px] font-bold text-white shadow-md transition-all duration-300 after:absolute after:right-[20px] after:top-1/2 after:text-[32px] after:text-white after:opacity-0 after:transition-all after:duration-300 after:content-['+'] after:-translate-y-1/2 hover:border-white hover:bg-darkPurple hover:pl-[16px] hover:pr-[48px] hover:text-white hover:after:opacity-100;
+}
+
+.hover-line {
+  @apply relative transition-all duration-300 before:absolute before:bottom-0 before:left-1/2 before:h-[1px] before:w-0 before:bg-purple before:opacity-0 before:transition-all before:duration-300 before:will-change-transform before:-translate-x-1/2 hover:text-purple hover:before:w-full hover:before:opacity-100;
+}
+
+.header-link {
+  @apply relative h-full before:absolute before:bottom-0 before:left-1/2 before:hidden before:h-[4px] before:w-0 before:bg-purple before:opacity-0 before:transition-all before:duration-300 before:will-change-transform before:-translate-x-1/2 hover:text-purple hover:before:w-full hover:before:opacity-100 md:before:block;
+}

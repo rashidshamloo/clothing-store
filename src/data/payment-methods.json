@@ -1,0 +1,22 @@
+[
+  {
+    "title": "VISA",
+    "image": "/images/footer/payment-methods/visa.png"
+  },
+  {
+    "title": "MasterCard",
+    "image": "/images/footer/payment-methods/mastercard.png"
+  },
+  {
+    "title": "PayPal",
+    "image": "/images/footer/payment-methods/paypal.png"
+  },
+  {
+    "title": "Apple Pay",
+    "image": "/images/footer/payment-methods/applepay.png"
+  },
+  {
+    "title": "Google Pay",
+    "image": "/images/footer/payment-methods/googlepay.png"
+  }
+]
