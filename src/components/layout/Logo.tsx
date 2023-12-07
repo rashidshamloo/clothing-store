@@ -16,7 +16,7 @@ const Logo = ({ size, className }: { size: 'sm' | 'lg'; className?: string }) =>
         'h-[64px] md:h-[100px]': size === 'lg'
       })}
       alt="logo"
-      priority
+      priority={size === 'sm'}
     />
   );
 };
