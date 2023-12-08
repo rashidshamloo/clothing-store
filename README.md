@@ -58,7 +58,7 @@ All of the images used in this website have responsive sizes according to the de
 
 ## To Do
 
-There are more features that I would like to add in the future like a blog, wishlist, pagination, contact us page, etc.
+There are more features that I would like to add in the future like a blog, wishlist, pagination, contact us page, i18n, etc.
 
 ## Tech Stack
 - Shopify
@@ -70,8 +70,15 @@ There are more features that I would like to add in the future like a blog, wish
 - Framer Motion
 
 ## Screenshots
-  <a href="/screenshots/screenshot-desktop-japanese.png"><img src="/screenshots/screenshot-desktop.png" alt="Desktop Screenshot" height="800px"/></a>
-  <a href="/screenshots/screenshot-mobile-japanese.png"><img src="/screenshots/screenshot-mobile.png" alt="Mobile Screenshot" height="800px"/></a>
+- Home Page
+
+  <a href="/screenshots/screenshot-desktop.png"><img src="/screenshots/screenshot-desktop.png" alt="Desktop Screenshot" height="800px"/></a>
+  <a href="/screenshots/screenshot-mobile.png"><img src="/screenshots/screenshot-mobile.png" alt="Mobile Screenshot" height="800px"/></a>
+  
+- Product Page
+
+  <a href="/screenshots/screenshot-desktop-product.png"><img align="top" src="/screenshots/screenshot-desktop-product.png" alt="Desktop Screenshot - Product Page" width="312px"/></a>
+  <a href="/screenshots/screenshot-mobile-product.png"><img src="/screenshots/screenshot-mobile-product.png" alt="Mobile Screenshot - Product Page" width="64px"/></a>
 
 ## Author
 Rashid Shamloo
