@@ -21,7 +21,7 @@ const SubMenu = ({
 }) => {
   return (
     <div
-      className="pointer-events-none absolute left-0 right-0 top-[80px] z-40 flex items-center justify-center bg-white/70 py-[24px] opacity-0 backdrop-blur-lg transition-all duration-500"
+      className="pointer-events-none absolute left-0 right-0 top-[79px] z-40 flex items-center justify-center border-t border-purple bg-white/70 py-[24px] opacity-0 backdrop-blur-lg transition-all duration-500"
       // border-b border-purple
     >
       <div className="flex w-full max-w-[670px] items-stretch justify-between">
