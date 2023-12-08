@@ -35,7 +35,8 @@ const Menu = ({ menu }: { menu: Menu[] }) => {
                   if (!item.items.length) return;
                   const containerElement = (e.target as HTMLAnchorElement)
                     .nextSibling as HTMLDivElement;
-                  if (!containerElement) return;
+                  if (!containerElement || !containerElement.classList.contains('opacity-0'))
+                    return;
                   containerElement.classList.remove(
                     'opacity-0',
                     'pointer-events-none',
