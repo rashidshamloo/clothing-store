@@ -139,7 +139,7 @@ const ProductCard = ({
             })}
           </div>
         </a>
-        <div className="flex items-center justify-center gap-[16px] lg:gap-[8px]">
+        <div className="flex flex-wrap items-center justify-center gap-[24px] lg:gap-[8px]">
           {colorVariants.map((variant, i) => {
             return (
               <button
